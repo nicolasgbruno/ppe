@@ -101,12 +101,6 @@
         margin-right: 40px;
     }
 
-    .ppe {
-        img {
-           width: 450px;
-        }
-    }
-
 }
 
 /* Medida celulares grandes */
@@ -142,14 +136,19 @@
         margin-right: 20px;
     }
 
-    .videoBuko {
-        height: 360px;
+    .nosotros {
+        width: 350px;
     }
 
     .ppe {
         img {
            width: 350px;
         }
+    }
+
+    .ppeParrafo {
+        font-size: 1.3em;
+        text-align: center;
     }
 }
 
@@ -186,11 +185,11 @@
         margin-right: 20px;
     }
 
-    .ppe {
-        img {
-           width: 300px;
-        }
+    .nosotros {
+        width: 300px;
     }
+
+    
 }
 
 /* Medida celulares chicos */
@@ -222,10 +221,18 @@
         margin-right: 10px;
     }
 
+    .nosotros {
+        width: 275px;
+    }
+
     .ppe {
         img {
            width: 275px;
         }
+    }
+
+    .ppeParrafo {
+        font-size: 1em;
     }
 }
 
@@ -249,5 +256,9 @@
         img {
            width: 250px;
         }
+    }
+
+    .nosotros {
+        width: 250px;
     }
 }

@@ -314,10 +314,6 @@ footer {
     width: 40px;
     margin-right: 40px;
   }
-
-  .ppe img {
-    width: 450px;
-  }
 }
 /* Medida celulares grandes */
 @media (max-width: 599px) {
@@ -351,12 +347,17 @@ footer {
     margin-right: 20px;
   }
 
-  .videoBuko {
-    height: 360px;
+  .nosotros {
+    width: 350px;
   }
 
   .ppe img {
     width: 350px;
+  }
+
+  .ppeParrafo {
+    font-size: 1.3em;
+    text-align: center;
   }
 }
 /* Medida celulares medianos */
@@ -391,7 +392,7 @@ footer {
     margin-right: 20px;
   }
 
-  .ppe img {
+  .nosotros {
     width: 300px;
   }
 }
@@ -423,8 +424,16 @@ footer {
     margin-right: 10px;
   }
 
+  .nosotros {
+    width: 275px;
+  }
+
   .ppe img {
     width: 275px;
+  }
+
+  .ppeParrafo {
+    font-size: 1em;
   }
 }
 /* Medida celulares pequeños */
@@ -443,6 +452,10 @@ footer {
   }
 
   .ppe img {
+    width: 250px;
+  }
+
+  .nosotros {
     width: 250px;
   }
 }
