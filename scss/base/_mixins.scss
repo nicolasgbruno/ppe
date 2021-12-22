@@ -1,0 +1,6 @@
+@mixin transform($zoomheader){
+    -webkit-transform: $zoomheader;
+    -o-transform: $zoomheader;
+    -moz-transform: $zoomheader;
+    transform: $zoomheader;
+}

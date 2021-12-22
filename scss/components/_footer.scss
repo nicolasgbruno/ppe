@@ -1,0 +1,29 @@
+/* Footer */
+
+footer {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+}
+
+.redes {
+    display: flex;
+    list-style-type: none;
+}
+
+.redes img {
+    width: 60px;
+    margin-right: 40px;
+}
+
+/* End footer */

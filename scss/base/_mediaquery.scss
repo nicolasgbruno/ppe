@@ -1,0 +1,253 @@
+/* Media Query */
+/* Medida aproximadas para acomodar todos los dispositivos */
+
+/* Medida notebooks */
+@media (max-width: 1299px) {
+
+    .linkSecciones {
+        font-size: 1.7em;
+    }
+
+    main {
+
+        padding-bottom: 30px;
+    }
+
+    .mainHome {
+        display: grid;
+        grid-template-rows: 600px 400px 400px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .imagenesHome {
+        margin-left: 15px;
+        margin-right: 15px; 
+    }
+
+    .imagenesHome:first-child {
+        grid-column: 1 / 3;
+        grid-row: unset;
+    }
+
+    .paginasInternas {
+    display: grid;
+    grid-template-rows: repeat(3, 500px);
+    grid-template-columns: 700px 350px;
+    gap: 20px;
+    justify-content: center;
+    }
+
+    .parrafoInternas {
+        font-size: 1.3em;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    .redes img {
+        width: 50px;
+        margin-right: 40px;
+    }
+
+}
+
+/* Medida tablets */
+@media (max-width: 899px) {
+
+    .tituloPpe {
+       font-size: 1.8em
+    }
+
+    .tituloHeader {
+        font-size: 1.5em;
+    }
+
+    .carrusel {
+        height: 70vh;
+    }
+
+    .linkSecciones {
+        font-size: 1.5em;
+        margin-left: none;
+    }
+
+    main {
+       
+        padding-bottom: 10px;
+    }
+    
+    .mainHome {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .paginasInternas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .parrafoInternas {
+        font-size: 1.7em;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .redes img {
+        width: 40px;
+        margin-right: 40px;
+    }
+
+    .ppe {
+        img {
+           width: 450px;
+        }
+    }
+
+}
+
+/* Medida celulares grandes */
+@media (max-width: 599px) {
+
+    .tituloHeader {
+        font-size: 1.5em
+    }
+
+    .carrusel {
+        height: 50vh;
+    }
+    
+    .headerIndex img {
+        width: 80px;
+    }
+
+    .linkSecciones {
+        font-size: 1.3em;
+        margin-left: none;
+    }
+
+    .parrafoInternas {
+        font-size: 1.4em;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .redes img {
+        width: 30px;
+        margin-right: 20px;
+    }
+
+    .videoBuko {
+        height: 360px;
+    }
+
+    .ppe {
+        img {
+           width: 350px;
+        }
+    }
+}
+
+/* Medida celulares medianos */
+@media (max-width: 499px) {
+
+    .headerIndex img {
+        display: none;
+     }
+
+    .tituloPpe {
+        font-size: 1.5em;
+    }
+
+    .tituloHeader {
+        font-size: 1.3em
+    }
+
+    .carrusel {
+        height: 30vh;
+    }
+
+    .linkSecciones {
+        font-size: 1.0em;
+        border: white solid 3px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .redes img {
+        width: 20px;
+        margin-right: 20px;
+    }
+
+    .ppe {
+        img {
+           width: 300px;
+        }
+    }
+}
+
+/* Medida celulares chicos */
+@media (max-width: 399px) {
+
+    .tituloPpe {
+        font-size: 1.3em;
+    }
+
+    .tituloHeader {
+        font-size: 1em
+    }
+
+    .linkSecciones {
+        font-size: 1em;
+        border: white solid 2px;
+    }
+
+    .headerIndex img {
+        width: 60px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .redes img {
+        width: 15px;
+        margin-right: 10px;
+    }
+
+    .ppe {
+        img {
+           width: 275px;
+        }
+    }
+}
+
+/* Medida celulares pequeños */
+@media (max-width: 320px) {
+
+    .linkSecciones {
+        font-size: 0.6em;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .redes img {
+        width: 15px;
+        margin-right: 10px;
+    }
+
+    .ppe {
+        img {
+           width: 250px;
+        }
+    }
+}

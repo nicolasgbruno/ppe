@@ -1,0 +1,48 @@
+
+/* Header */
+@import '../base/mixins';
+@import '../base/extends';
+
+header {
+    background-color: #1E1E1E;
+}
+
+.inicioIndex {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menuNav {
+    text-align: end;
+}
+
+.headerIndex {
+    display: flex;
+    align-items: center;
+}
+
+.tituloHeader{
+    margin-left: 20px;
+    color: white;
+
+    &:hover {
+    @extend %efectobordo;
+    }
+}
+
+.tituloPpe{
+    margin-left: 20px;
+    color: white;
+
+    &:hover {
+    @include transform(translate(20px));
+    @extend %efectobordo;
+    }
+}
+
+.subrayado {
+    text-decoration: none;
+}
+/* End header */
