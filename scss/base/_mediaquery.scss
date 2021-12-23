@@ -120,6 +120,16 @@
     }
 }
 
+@media (max-width: 699px) {
+    .carrusel {
+        h2 {
+            font-size: 2.7em;
+        }
+    }
+
+    }
+
+
 /* Medida celulares grandes */
 @media (max-width: 599px) {
 
@@ -129,6 +139,9 @@
 
     .carrusel {
         height: 50vh;
+        h2 {
+            font-size: 2.5em;
+        }
     }
     
     .headerIndex img {
@@ -197,7 +210,10 @@
     }
 
     .carrusel {
-        height: 30vh;
+        height: 40vh;
+        h2 {
+            font-size: 2em;
+        }
     }
 
     .linkSecciones {
@@ -255,6 +271,13 @@
 
     .logo {
         width: 150px;
+    }
+
+    .carrusel {
+        height: 30vh;
+        h2 {
+            font-size: 1.5em;
+        }
     }
 
     .redes img {
