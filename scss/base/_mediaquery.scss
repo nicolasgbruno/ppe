@@ -51,6 +51,16 @@
         margin-right: 40px;
     }
 
+    .escritosTitulo {
+        font-size: 2.5em;
+    }
+
+}
+
+@media (max-width: 999px) {
+    .escritosTitulo {
+        font-size: 2.2em;
+    }
 }
 
 /* Medida tablets */
@@ -101,6 +111,13 @@
         margin-right: 40px;
     }
 
+    .escritosBloque {
+        width: 75% !important;
+    }
+
+    .escritos {
+        width: 75% !important;
+    }
 }
 
 /* Medida celulares grandes */
@@ -150,6 +167,18 @@
         font-size: 1.3em;
         text-align: center;
     }
+
+    .escritosPosition {
+        left: 30px;
+    }
+
+    .escritosTitulo {
+        font-size: 2em;
+    }
+
+    .escritos {
+        font-size: 1.3em;
+    }
 }
 
 /* Medida celulares medianos */
@@ -187,6 +216,18 @@
 
     .nosotros {
         width: 300px;
+    }
+
+    .escritosTitulo {
+        font-size: 1.7em;
+    }
+
+    .escritosBloque {
+        width: 80% !important;
+    }
+
+    .escritos {
+        width: 80% !important;
     }
 
     
@@ -233,6 +274,19 @@
 
     .ppeParrafo {
         font-size: 1em;
+    }
+
+    .escritosBloque {
+        width: 85% !important;
+    }
+
+    .escritosTitulo {
+        font-size: 1.5em;
+    }
+
+    .escritos {
+        font-size: 1em;
+        width: 85% !important;
     }
 }
 

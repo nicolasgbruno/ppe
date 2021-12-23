@@ -45,6 +45,11 @@
     font-size: 3em;
 }}
 
+.tituloNota:hover {
+    @extend %efectobordo;
+        }
+
+
 /* Fin Carrusel */
 
 .mainHome {
@@ -66,14 +71,16 @@
     position: absolute;
     left: 15px;
     bottom: 10px;
-    font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 1.5em;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .titulo {
     margin-top: 10px;
+
+    &:hover {
+        @extend %efectobordo;
+    }
 }
 
 .imagenesHome:first-child {
@@ -105,7 +112,6 @@
 .parrafoInternas {
     display: flex;
     font-size: 1.5em;
-    font-family: 'Source Sans Pro', sans-serif;
     text-align: justify;
     padding: auto;
     align-items: center;
@@ -144,6 +150,32 @@
     background-color: whitesmoke;
 }
 
+/* Notas */
 
+.escritosBloque {
+    position: relative;
+    box-shadow: 1px 1px 5px black;
+    margin: auto;
+    margin-top: 20px;
+} 
+
+.escritosPosition {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.escritosTitulo {
+    font-size: 3em;
+}
+
+.escritos {
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 40px;
+    background-color: whitesmoke;
+}
 
 /* End main */

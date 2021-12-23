@@ -8,7 +8,7 @@
 
 /* Fonts */
 /* Header */
-.tituloPpe:hover, .tituloHeader:hover {
+.titulo:hover, .tituloNota:hover, .tituloPpe:hover, .tituloHeader:hover {
   transition: all 1s;
   color: brown;
 }
@@ -53,7 +53,7 @@ header {
 }
 
 /* End header */
-.tituloHeader:hover, .tituloPpe:hover {
+.titulo:hover, .tituloNota:hover, .tituloHeader:hover, .tituloPpe:hover {
   transition: all 1s;
   color: brown;
 }
@@ -115,16 +115,13 @@ header {
   position: absolute;
   left: 15px;
   bottom: 10px;
-  font-family: "Oswald", sans-serif;
   color: white;
-  font-size: 1.5em;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .titulo {
   margin-top: 10px;
 }
-
 .imagenesHome:first-child {
   grid-column: 1/3;
   grid-row: 1/3;
@@ -153,7 +150,6 @@ header {
 .parrafoInternas {
   display: flex;
   font-size: 1.5em;
-  font-family: "Source Sans Pro", sans-serif;
   text-align: justify;
   padding: auto;
   align-items: center;
@@ -187,6 +183,33 @@ header {
 }
 
 .ppeFondo {
+  background-color: whitesmoke;
+}
+
+/* Notas */
+.escritosBloque {
+  position: relative;
+  box-shadow: 1px 1px 5px black;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.escritosPosition {
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.escritosTitulo {
+  font-size: 3em;
+}
+
+.escritos {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 40px;
   background-color: whitesmoke;
 }
 
@@ -268,6 +291,15 @@ footer {
     width: 50px;
     margin-right: 40px;
   }
+
+  .escritosTitulo {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 999px) {
+  .escritosTitulo {
+    font-size: 2.2em;
+  }
 }
 /* Medida tablets */
 @media (max-width: 899px) {
@@ -314,6 +346,14 @@ footer {
     width: 40px;
     margin-right: 40px;
   }
+
+  .escritosBloque {
+    width: 75% !important;
+  }
+
+  .escritos {
+    width: 75% !important;
+  }
 }
 /* Medida celulares grandes */
 @media (max-width: 599px) {
@@ -359,6 +399,18 @@ footer {
     font-size: 1.3em;
     text-align: center;
   }
+
+  .escritosPosition {
+    left: 30px;
+  }
+
+  .escritosTitulo {
+    font-size: 2em;
+  }
+
+  .escritos {
+    font-size: 1.3em;
+  }
 }
 /* Medida celulares medianos */
 @media (max-width: 499px) {
@@ -394,6 +446,18 @@ footer {
 
   .nosotros {
     width: 300px;
+  }
+
+  .escritosTitulo {
+    font-size: 1.7em;
+  }
+
+  .escritosBloque {
+    width: 80% !important;
+  }
+
+  .escritos {
+    width: 80% !important;
   }
 }
 /* Medida celulares chicos */
@@ -435,6 +499,19 @@ footer {
   .ppeParrafo {
     font-size: 1em;
   }
+
+  .escritosBloque {
+    width: 85% !important;
+  }
+
+  .escritosTitulo {
+    font-size: 1.5em;
+  }
+
+  .escritos {
+    font-size: 1em;
+    width: 85% !important;
+  }
 }
 /* Medida celulares pequeños */
 @media (max-width: 320px) {
@@ -459,7 +536,7 @@ footer {
     width: 250px;
   }
 }
-.tituloHeader:hover, .tituloPpe:hover {
+.tituloHeader:hover, .tituloPpe:hover, .tituloNota:hover, .titulo:hover {
   transition: all 1s;
   color: brown;
 }
